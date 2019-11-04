@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="player player-{{isPlayingMusic ? 'play':'pause'}}" bindtap="play">
+<image src="/images/music_icon.png"></image>
+<image src="/images/music_play.png"></image>
+</view>
+<!-- 背景图片 -->
+<image class="bg" src="/images/bg_1.png"></image>
+<!-- 内容区域 -->
+<view class="content">
+<!-- 顶部gif图片 -->
+<image class="content-gif" src="/images/save_the_date.gif"></image>
+<!-- 标题 -->
+<view class="content-title">邀请函</view>
+<!-- 合照 -->
+<view class="content-avatar">
+<image src="/images/avatar.png"></image>
+</view>
+<!-- 名字 -->
+<view class="content-info">
+<view class="content-name" bindtap="callGroom">
+  <image src="/images/tel.png"></image>
+  <view>王辉辉</view>
+  <view>新郎</view>
+</view>
+<view class="content-wedding">
+  <image src="/images/marry.png"></image>
+</view>
+<view class="content-name" bindtap="callBride">
+  <image src="/images/tel.png"></image>
+  <view>张琳琳</view>
+  <view>新娘</view>
+</view>
+</view>
+<!-- 婚礼信息 -->
+<view class="content-address">
+<view>我们诚邀您来参加我们的婚礼</view>
+<view>时间：2019年1月28日</view>
+<view>地点：北京市海滨区青阳路国鼎酒店</view>
+</view>
+</view>
